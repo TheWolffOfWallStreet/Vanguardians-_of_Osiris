@@ -4,14 +4,6 @@ body, html {
     height: 100%;
     width: 100%;
 }
-h1{
-    font-size: 45px;
-    color:black;
-}
-h1 a {
-  text-decoration: none;
-  color:black;
-}
 .topnav {
     background-color: black;
     overflow: hidden;
