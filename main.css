@@ -19,9 +19,6 @@ body, html {
     font-size: 30px;
     
   }
-  .topnav a:hover {
-    color:white;
-  }
   .topnav ul{
     display: flex;
     justify-content: space-evenly;
@@ -58,12 +55,18 @@ body, html {
 
   [class*="col-"] {
     float: left;
-    padding: 15px;
-    border: 1px solid black;
-    margin: 100px 30px 5px 15px;
+    padding: 5px;
+    margin: 100px 10px 10px 100px;
   }
   .row::after {
     content: "";
     clear: both;
     display: table;
+  }
+  .item-title{
+    text-decoration: underline;
+  }
+  .item-discription{
+    line-height: 2rem;
+    word-spacing: .2rem;
   }
