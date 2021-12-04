@@ -3,21 +3,37 @@
 
 <head>
     <meta charsest="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vanguardians of Osiris</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="topnav">
-        <ul class="navbar">
-            <li><a href="index.html"> Vanguardians of Osiris</a></li>
-            <li><a href="crucible.html">Crucible</a></li>
-            <li><a href="PVE.html">PVE</a></li>
-            <li><a href="weapon_arsenal.html">Weapon Arsenal</a></li>
-            <li><a href="contact_us.html">Contact Us</a></li>
-        </ul>
+        <a href="index.html">Vanguardians of Osiris</a>
+
+        <div id="myLinks">
+            <a href="crucible.html">Crucible</a>
+            <a href="PVE.html">PVE</a>
+            <a href="weapon_arsenal.html">Weapon Arsenal</a>
+            <a href="contact_us.html">Contact Us</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        </script>
     <div class="row">
         <div class="col-2"><img src="images/agers.jpg" alt="Ager's Scepter" width="300px" height="475px">
             <h1 class="item-title">Ager's Scepter Quest</h1>
