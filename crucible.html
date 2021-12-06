@@ -33,31 +33,72 @@
                 x.style.display = "block";
             }
         }
-        </script>
-    <div class="row">
-        <div class="col-2"><img src="images/ironbannerlogo.jpeg" alt="Iron Banner Sigil" width="300px" height="250px">
-            <h1 class="item-title">Iron Banner</h1>
-        </div>
-        <div class="row">
-            <div class="col-2"><img src="images/trialslogo.jpeg" alt="Trials of Osiris logo over the Lighthouse" width="300px" height="250px">
-                <h1 class="item-title">Trials of Osiris</h1>
+    </script>
+
+    <div class="grid-container">
+        <div class="grid-item"><img src="images/ironbannerlogo.jpeg" alt="Iron Banner Sigil" width="300px"
+                height="250px">
+            <button type="button" class="collapsible">Iron Banner</button>
+            <div class="content">
+                <p>We can play Iron Banner (6v6 Control) with you and help you get your hands on various weapons
+                    and armor pieces that are specific to this playlist, all while helping you complete your
+                    Iron Banner bounties. </p>
             </div>
-            <div class="row">
-                <div class="col-2"><img src="images/unbrokenseal.png" alt="image of the Unbroken Seal" width="300px" height="250px">
-                    <h1 class="item-title">Unbroken Seal/Guilding</h1>
-                </div>
-                <div class="row">
-                    <div class="col-2"><img src="images/flawless_seal2.jpg" alt="image of the Flawless Seal" width="300px" height="250px">
-                        <h1 class="item-title">Flawless Seal/Guiding</h1>
-                    </div>
+        </div>
 
-                </div>
 
+        <div class="grid-item"><img src="images/trialslogo.jpeg" alt="Trials of Osiris logo over the Lighthouse"
+                width="300px" height="250px">
+            <button type="button" class="collapsible">Trials of Osiris</button>
+            <div class="content">
+                <p>We can play Trials of Osiris (3v3 endgame elimination) and help you rank up with Saint-14,
+                    get Trials Engrams, and win 7 matches without a loss to go Flawless and claim the weekly
+                    adept weapon.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="grid-item"><img src="images/unbrokenseal.png" alt="image of the Unbroken Seal" width="300px"
+                height="250px">
+            <button type="button" class="collapsible">Unbroken Seal/Guilding</button>
+            <div class="content">
+                <p>We can play the Survival game mode in the competitive playlist and help you reach
+                    5500 Glory Points to claim your Unbroken Seal.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="grid-item"><img src="images/flawless_seal2.jpg" alt="image of the Flawless Seal" width="300px"
+                height="250px">
+            <button type="button" class="collapsible">Flawless Seal/Guilding</button>
+            <div class="content">
+                <p>We can play Trials of Osiris with you and help you satisfy the requirements
+                    for claiming your Flawless Seal.
+                </p>
             </div>
 
         </div>
 
     </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
 </body>
 
 <footer>
