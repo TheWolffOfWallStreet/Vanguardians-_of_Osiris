@@ -36,8 +36,8 @@
         </script>
     <div class="contactus">
         <form>
-            <br><label for="gtag">Email:</label><br>
-            <input type="text" id="email" name="email"><br>
+            <br><label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
             <br><label for="gtag">Gamertag/Username:</label><br>
             <input type="text" id="gtag" name="gtag"><br><br>
             <label for="platform">Platform:</label><br>
@@ -94,9 +94,16 @@
             <label for="Xenophage">Xenophage Exotic Quest</label><br>
             <input type="checkbox" id="Ascendancy" name="Ascendancy" value="Ascendancy">
             <label for="Ascendancy">Seasonal Ritual Weapon (Ascendancy Rocket)</label><br><br>
-            <textarea placeholder="Is there something else we can help you with?"></textarea>
+            <textarea placeholder="Is there something else we can help you with?"></textarea><br>
            
-            <br><input type="submit" value="Submit"><br><br>
+            <input type="submit" value="Submit">
+            <button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  alert("I am an alert box!");
+}
+</script>
         </form>
     </div>
 
