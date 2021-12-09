@@ -46,7 +46,7 @@ body, html {
  
   .bannerimage{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/allbymyselfhome.jpg");
-    height: 110%;
+    height: 130%;
     background-position: center;
     width:100%;
     background-repeat: no-repeat;
@@ -167,7 +167,4 @@ textarea{
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-}
-footer{
-  
 }
