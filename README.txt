@@ -13,8 +13,6 @@ them, and select as many options as they see fit before submitting it. We will t
 help them complete their requests in a timely manner so that they can continue enjoying all that the game has to 
 offer. 
 
-It is important to note that we do not ask for payment for these services, and will only include a 
-zero-obligation option for donations if our happy and satisfied users would like to contribute. 
 
 The features from the CSS and JavaScript list I chose to integrate into my project are:
 

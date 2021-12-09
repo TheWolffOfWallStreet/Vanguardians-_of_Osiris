@@ -13,14 +13,28 @@ body, html {
   }
   .topnav #myLinks {
     display: none;
+    
   }
   .topnav a {
-    float: left;
+    
+    float:left;
     color:white;
     padding: 14px 40px;
     text-decoration:none;
     font-size: 30px;
+  
+  }
+  @media screen and (max-width: 700px){
+    .topnav a {
+      float:none;
+      display: block;
+      font-size: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right:50px;
     
+    }
   }
   .topnav a.icon {
     background: black;
@@ -29,6 +43,7 @@ body, html {
     right: 0;
     top: 0;
   }
+ 
   .bannerimage{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/allbymyselfhome.jpg");
     height: 110%;
@@ -37,16 +52,37 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover; 
   }
+  @media screen and (max-width: 700px){
+    .bannerimage{
+      background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/allbymyselfhome.jpg");
+    height: 150%;
+    background-position: center;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    }
+  }
+
   .banner-text{
     color: white;
     text-align: center;
     padding: 1px;
+    font-size: 30px;
+  }
+  @media screen and (max-width: 700px){
+    .banner-text {
+      color:white;
+      text-align: center;
+      padding-left: 10px;
+      padding-right:20px;
+      font-size: 20px;
+    }
   }
   .whoweare{
     color:white;
     text-align: center;
   }
-
+ 
   .grid-container {
     display: grid;
     grid-gap: 50px;
@@ -54,7 +90,14 @@ body, html {
     background-color: slategray;
     padding: 10px;
   }
-  
+  @media screen and (max-width: 700px){
+    .grid-container{
+      display:grid;
+      grid-gap: 50px;
+      grid-template-columns: auto;
+      background-color: slategray;
+  }
+}
   .grid-item {
     background-color: slategray;
     padding: 20px;
@@ -66,6 +109,11 @@ body, html {
   font-size: 15px;
   width: 550px;
   height: 20px;
+  }
+  @media screen and (max-width: 700px){
+    input[type=text]{
+      width: 350px;
+  }
   }
   input[type=text]:focus {
     border: 1px solid black;
@@ -81,10 +129,22 @@ body, html {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  @media screen and (max-width: 700px){
+    form {
+      width:90%
+      
+    }
+  }
 textarea{
   width: 550px;
   height: 100px;
   font-size: 15px;
+}
+@media screen and (max-width: 700px){
+  textarea {
+    width: 350px;
+    
+  }
 }
 .collapsible {
   background-color: black;
@@ -107,4 +167,7 @@ textarea{
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+footer{
+  
 }
