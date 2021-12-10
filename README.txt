@@ -14,13 +14,20 @@ help them complete their requests in a timely manner so that they can continue e
 offer. 
 
 
-The features from the CSS and JavaScript list I chose to integrate into my project are:
+*The features from the CSS and JavaScript list I chose to integrate into my project are:
 
-CSS and JavaScript- A navigation menu that expands and collapses properly at desktop and mobile sizes with the 
+*CSS and JavaScript- A navigation menu that expands and collapses properly at desktop and mobile sizes with the 
 use of a "hamburger" button. 
 
-CSS- I used CSS grid to help organize and display available content on my crucible, PVE, and weapon arsenal pages 
-for both mobile and desktop view.
+*CSS- I used CSS grid to help organize and display available content on my crucible, PVE, and weapon arsenal pages 
+for both mobile and desktop view in the appropriate manner based on screen size.
 
-CSS and JavaScript- I used both CSS and JavaScript to add individual show/hide descriptions for each available 
+*CSS and JavaScript- I used both CSS and JavaScript to add individual show/hide descriptions for each available 
 option on my crucible, PVE, and weapon arsenal pages. (uses separate CSS and JavaScript code from nav bar)
+
+
+*Home page is the index file.
+*There are a total of 7 media queries, at least two of these meet necessary requirements.
+*I am aware that the form does not actually use data submitted, but found its inclusion to be integral to the
+actual purpose of the website within the scope of my vision. It needed to show a way for users to be able to 
+submit their contact information and what specific items they selected for functionality purposes.
